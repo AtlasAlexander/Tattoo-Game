@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 1756575650649985075}
   - component: {fileID: 7410429429021755372}
   - component: {fileID: 3020987404188806991}
+  - component: {fileID: 9195387172770801025}
   m_Layer: 0
   m_Name: Player Controller
   m_TagString: Player
@@ -134,7 +135,7 @@ Transform:
   m_GameObject: {fileID: 2498244826446077678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.075, y: 1.049, z: 0.15}
+  m_LocalPosition: {x: -3.61, y: 1.16, z: 0.16938591}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -177,7 +178,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2498244826446077678}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba356b7bd82841c498748d83ecb86047, type: 3}
   m_Name: 
@@ -208,8 +209,27 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.85, y: 2.05, z: 0.1}
+  m_Size: {x: 1.1, y: 2.05, z: 0.83}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9195387172770801025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2498244826446077678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e03be52dccb1584a83dfbb19df33c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 0}
+  messages:
+  - Congrats on booking your first tattoo
+  - Wear Sunscreen
+  - Stay Hydrated
+  - "See ya tomorrow q(\u2267\u25BD\u2266q)"
+  canvasToHide: {fileID: 0}
 --- !u!1 &2877815021580539812
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +338,7 @@ Transform:
   m_GameObject: {fileID: 7027762523187887117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.037, y: 0.305, z: 0}
+  m_LocalPosition: {x: 1.03, y: -0.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -64,7 +64,6 @@
     <Compile Include="Assets\Scripts\TbarController.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\Thatchers Material.cs" />
     <Compile Include="Assets\Scripts\Wobble.cs" />
     <Compile Include="Assets\Scripts\EndScreenManager.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
