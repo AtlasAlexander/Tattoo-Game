@@ -539,8 +539,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\AssetsUtils\GetSelectedPaths.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\CodeEditor\Editing\TextSegmentReadOnlySectionProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\CodeEditor\Rendering\LinkElementGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Shelves\ShelvesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\UVCSToolbar\PopupWindow\BranchesList\BranchesTreeView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\Shelves\ShelvesTab.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\Headless\HeadlessGluonUpdateReport.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.12.4\Editor\CodeEditor\Editing\CaretLayer.cs" />
