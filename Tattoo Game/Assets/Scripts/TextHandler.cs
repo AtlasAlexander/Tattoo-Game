@@ -9,19 +9,10 @@ public class TextHandler : MonoBehaviour
     public GameObject canvasToHide;
 
     private int currentIndex = 0;
-    private MonoBehaviour playerController;
+    public bool playIntro = true;
 
     void Start()
     {
-        // Get the movement script on the same GameObject
-        playerController = GetComponent<PlayerController>();
-
-        // Make sure movement is disabled at start
-        if (playerController != null)
-        {
-            playerController.enabled = false;
-        }
-
         if (messages.Length > 0)
         {
             textDisplay.text = messages[currentIndex];
@@ -30,9 +21,12 @@ public class TextHandler : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (playIntro)
         {
-            NextText();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                NextText();
+            }
         }
     }
 
@@ -59,11 +53,7 @@ public class TextHandler : MonoBehaviour
             canvasToHide.SetActive(false);
         }
 
-        // Enable player movement
-        if (playerController != null)
-        {
-            playerController.enabled = true;
-        }
+        playIntro = false;
 
         // Disable this script
         this.enabled = false;
