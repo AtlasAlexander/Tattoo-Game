@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Wobble.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\TriggerCutscene.cs" />
+    <Compile Include="Assets\Scripts\EndScreenTrigger.cs" />
     <Compile Include="Assets\Scripts\TextHandler.cs" />
     <Compile Include="Assets\Scripts\Managers\EndScreenManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

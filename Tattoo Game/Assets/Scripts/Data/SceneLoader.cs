@@ -16,6 +16,6 @@ public class SceneLoader : MonoBehaviour
     // Switch using scene name
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene(sceneName);
     }
 }

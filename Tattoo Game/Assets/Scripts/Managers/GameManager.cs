@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     private TextHandler textHandler;
     private NPCManager npcManager;
 
+    public int playerScore;
+    public int BattleInt;
+
+
     void Awake()
     {
         player = GameObject.FindWithTag("Player");
@@ -30,7 +34,7 @@ public class GameManager : MonoBehaviour
     {
         if (npcManager.NPCs != null)
         { npcManager.FindNPCs(); }
-            
+
         if (!playerLeavesHome && textHandler.playIntro)
         {
             // Make sure movement is disabled at start so cutscene can playout first
@@ -84,40 +88,47 @@ public class GameManager : MonoBehaviour
     // Scans for all data needed upon scene loading
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        player = GameObject.FindWithTag("Player");
-        introCanvas = GameObject.Find("IntroCanvas");
-        playerController = player.GetComponent<PlayerController>();
-
-        if (scene.name == "MainScene")
+        if (scene.name == "BonusGame")
         {
-            npcManager.FindNPCs();
-            if (playerLeavesHome)
+            Destroy(this.gameObject);
+        }
+        else if (scene.name != "BonusGame")
+        {
+            player = GameObject.FindWithTag("Player");
+            introCanvas = GameObject.Find("IntroCanvas");
+            playerController = player.GetComponent<PlayerController>();
+
+            if (scene.name == "MainScene")
             {
-                introCanvas.SetActive(false);
+                npcManager.FindNPCs();
+                if (playerLeavesHome)
+                {
+                    introCanvas.SetActive(false);
 
-                if (npcManager.NPCs != null)
-                {
-                    npcManager.MakeVisable("NPC 2");
-                }
-                
-                if (playerController != null)
-                {
-                    playerController.enabled = true;
-                }
-                else
-                {
-                    Debug.LogError("Player not found!");
+                    if (npcManager.NPCs != null)
+                    {
+                        npcManager.MakeVisable("NPC 2");
+                    }
+
+                    if (playerController != null)
+                    {
+                        playerController.enabled = true;
+                    }
+                    else
+                    {
+                        Debug.LogError("Player not found!");
+                    }
+
+                    SetPlayerPosition("Spawn Position (2)");
                 }
 
-                SetPlayerPosition("Spawn Position (2)");
-            }
-
-            else if (playerLeavesHome == false)
-            {
-                SetPlayerPosition("Spawn Position (1)");
-                if (npcManager.NPCs != null)
+                else if (playerLeavesHome == false)
                 {
-                    npcManager.MakeVisable("NPC 1");
+                    SetPlayerPosition("Spawn Position (1)");
+                    if (npcManager.NPCs != null)
+                    {
+                        npcManager.MakeVisable("NPC 1");
+                    }
                 }
             }
         }

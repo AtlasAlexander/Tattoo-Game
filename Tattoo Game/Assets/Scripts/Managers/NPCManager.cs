@@ -6,7 +6,7 @@ using UnityEngine;
 public class NPCManager : MonoBehaviour
 {
   
-    public GameObject[] NPCs;
+    public GameObject[] NPCs; 
 
     // Collates all objects with tag NPC into a list for later usage
     public void FindNPCs() 
