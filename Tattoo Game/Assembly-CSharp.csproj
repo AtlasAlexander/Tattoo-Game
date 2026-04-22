@@ -60,19 +60,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Managers\NPCManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\Scripts\Data\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\Data\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Data\EndScreenManager.cs" />
     <Compile Include="Assets\Scripts\TbarController.cs" />
-    <Compile Include="Assets\Scripts\ButtonManager.cs" />
-    <Compile Include="Assets\Scripts\BedroomDoorManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\Managers\BedroomDoorManager.cs" />
     <Compile Include="Assets\Scripts\Data\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\Wobble.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\TriggerCutscene.cs" />
-    <Compile Include="Assets\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Scripts\TextHandler.cs" />
+    <Compile Include="Assets\Scripts\Managers\EndScreenManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Managers\ButtonManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -930,6 +931,18 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -940,6 +953,14 @@
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
@@ -964,17 +985,17 @@
       <Project>{C0A79E2D-EA17-28CA-7774-3B898ACC66BC}</Project>
       <Name>Unity.AdaptivePerformance</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Notifications.iOS.csproj">
-      <Project>{578E07B3-748E-5706-453F-E73FD5D1EC7E}</Project>
-      <Name>Unity.Notifications.iOS</Name>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{45641B74-0CC1-D8D0-2B46-9B220581FCE6}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Simulator.Extension.csproj">
       <Project>{2A59A578-B376-539F-BDF1-B94ABFA82617}</Project>
       <Name>Unity.AdaptivePerformance.Simulator.Extension</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{45641B74-0CC1-D8D0-2B46-9B220581FCE6}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
+    <ProjectReference Include="Unity.Notifications.iOS.csproj">
+      <Project>{578E07B3-748E-5706-453F-E73FD5D1EC7E}</Project>
+      <Name>Unity.Notifications.iOS</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{9F8A1986-DF78-DE22-FEBF-EF496A9B8F6B}</Project>
@@ -1039,6 +1060,10 @@
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{85EB5D70-4CFF-C2FB-7092-17B614636D9D}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{997E3989-CF9C-4AD1-5587-1851B74B66C7}</Project>
+      <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AdaptivePerformance.Editor.csproj">
       <Project>{8EC19FAA-9D3B-DD7D-88C3-99C938B2A79B}</Project>

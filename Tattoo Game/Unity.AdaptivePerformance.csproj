@@ -89,8 +89,8 @@
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Subsystem\AdaptivePerformanceSubsystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveTransparency.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptivePhysics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\VisualScript\GetPerformanceLevelsUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Profiler\AdaptivePerformanceProfilerStats.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\VisualScript\GetPerformanceLevelsUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Core\AutoPerformanceLevelController.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveBatching.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveResolution.cs" />
@@ -100,8 +100,8 @@
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Core\AdaptiverPerformanceLog.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Indexer\AdaptivePerformanceIndexer.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveViewDistance.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveDecals.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\VisualScript\OnLevelUnit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveDecals.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveShadowDistance.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\VisualScript\GetThermalMetricUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Runtime\Scalers\AdaptiveLayerCulling.cs" />
