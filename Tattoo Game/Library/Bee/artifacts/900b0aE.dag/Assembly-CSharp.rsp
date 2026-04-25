@@ -376,6 +376,7 @@
 "Assets/Scripts/Data/DontDestroy.cs"
 "Assets/Scripts/Data/SceneLoader.cs"
 "Assets/Scripts/EndScreenTrigger.cs"
+"Assets/Scripts/Managers/BedManager.cs"
 "Assets/Scripts/Managers/BedroomDoorManager.cs"
 "Assets/Scripts/Managers/ButtonManager.cs"
 "Assets/Scripts/Managers/CameraManager.cs"
@@ -383,10 +384,8 @@
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/NPCManager.cs"
 "Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/TbarController.cs"
 "Assets/Scripts/TextHandler.cs"
 "Assets/Scripts/TriggerCutscene.cs"
-"Assets/Scripts/Wobble.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|d:\\projects\\tattoo-game\\tattoo game\\assets\\scripts\\data\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\data\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\managers\\endscreenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\endscreenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\managers\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\triggercutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\managers\\endscreenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\endscreenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\managers\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|D:\\Projects\\Tattoo-Game\\Tattoo Game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1311276-6CF7-2C0A-4673-22D03FD17AEB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,14 +48,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SceneLoader.cs",
               "ToolTip": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Data\\SceneLoader.cs",
               "RelativeToolTip": "Assets\\Scripts\\Data\\SceneLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T11:05:55.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TriggerCutscene.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\TriggerCutscene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerCutscene.cs",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ButtonManager.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\ButtonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ButtonManager.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EndScreenManager.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\EndScreenManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\EndScreenManager.cs",
@@ -103,25 +103,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T08:25:42.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "NPCManager.cs",
               "DocumentMoniker": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\NPCManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\NPCManager.cs",
               "ToolTip": "D:\\Projects\\Tattoo-Game\\Tattoo Game\\Assets\\Scripts\\Managers\\NPCManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\NPCManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T08:25:09.314Z"
             }

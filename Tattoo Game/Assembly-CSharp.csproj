@@ -63,11 +63,10 @@
     <Compile Include="Assets\Scripts\Managers\NPCManager.cs" />
     <Compile Include="Assets\Scripts\Managers\CameraManager.cs" />
     <Compile Include="Assets\Scripts\Data\SceneLoader.cs" />
-    <Compile Include="Assets\Scripts\TbarController.cs" />
+    <Compile Include="Assets\Scripts\Managers\BedManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Managers\BedroomDoorManager.cs" />
     <Compile Include="Assets\Scripts\Data\DontDestroy.cs" />
-    <Compile Include="Assets\Scripts\Wobble.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\TriggerCutscene.cs" />
     <Compile Include="Assets\Scripts\EndScreenTrigger.cs" />
