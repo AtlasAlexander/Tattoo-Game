@@ -77,8 +77,8 @@
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\EditorUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformanceLoaderInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformanceConfigurationProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformanceConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformanceSettingsManager.cs" />
+    <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformanceConstants.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\AdaptivePerformancePackageInitialization.cs" />
     <Compile Include="Library\PackageCache\com.unity.adaptiveperformance@4.0.1\Editor\Management\BuildHelpers.cs" />
   </ItemGroup>
