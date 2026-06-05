@@ -388,6 +388,7 @@
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/NPCManager.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TattooBattle.cs"
 "Assets/Scripts/TextHandler.cs"
 "Assets/Scripts/TriggerCutscene.cs"
 "Assets/Synty/PolygonGeneric/Scripts/Generic_SimpleRotate.cs"
