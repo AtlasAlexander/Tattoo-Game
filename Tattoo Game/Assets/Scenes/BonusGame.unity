@@ -2501,7 +2501,7 @@ GameObject:
   - component: {fileID: 1465511215}
   - component: {fileID: 1465511214}
   m_Layer: 5
-  m_Name: Item Button (1)
+  m_Name: skincream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2570,7 +2570,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1465511215}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8446709363925202876}
+        m_TargetAssemblyTypeName: TattooBattle, Assembly-CSharp
+        m_MethodName: Cream
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1465511215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5704,6 +5716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7629981944111464277}
+  - component: {fileID: 8446709363925202876}
   m_Layer: 0
   m_Name: Battle System
   m_TagString: Untagged
@@ -5711,6 +5724,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8446709363925202876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8446709363925202875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b46878d16b1b2f4386ba251dd0b9f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tattooHealth: 0
+  tattooMaxHealth: 100
+  levelInt: 0
+  descisionTally: 0
+  battleText: 
 --- !u!223 &8456899043552041593
 Canvas:
   m_ObjectHideFlags: 0

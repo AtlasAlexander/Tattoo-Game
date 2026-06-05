@@ -346,6 +346,10 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Notifications.Unified.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.ProBuilder.AddOns.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.ProBuilder.AssetIdRemapUtility.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.ProBuilder.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.Profiling.Core.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
@@ -384,8 +388,12 @@
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/NPCManager.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TattooBattle.cs"
 "Assets/Scripts/TextHandler.cs"
 "Assets/Scripts/TriggerCutscene.cs"
+"Assets/Synty/PolygonGeneric/Scripts/Generic_SimpleRotate.cs"
+"Assets/Synty/PolygonGeneric/Scripts/Generic_SimpleTranslate.cs"
+"Assets/Synty/PolygonGeneric/Scripts/Generic_WaterBob.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

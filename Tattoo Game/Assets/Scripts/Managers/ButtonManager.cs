@@ -11,8 +11,6 @@ public class ButtonManager : MonoBehaviour
     public EndScreenManager endScreenManager;
     GameManager gameManager;
 
-    [SerializeField] public int endingInt;
-
     private void Start()
     {
         GameObject gameManagerObject = GameObject.FindGameObjectWithTag("GameManager");
